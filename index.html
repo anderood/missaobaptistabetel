@@ -11,28 +11,28 @@
 
 <nav class="navbar navbar-expand-lg" style="background-color: #10677a">
     <div class="container">
-        <a href="#" >
+        <a href="/" >
             <img src="https://missaobaptistabetel.pt/gallery_gen/8b944a20b8190b636b9d52eb09277942_400x320_fit.png?ts=1739539760" alt="" style="width: auto; height: 120px">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto ">
                 <li class="nav-item">
-                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-white active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Sobre</a>
+                    <a class="nav-link text-white" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Mensagem</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contato</a>
+                    <a class="nav-link text-white" href="#contato">Contato</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Localização</a>
+                    <a class="nav-link text-white" href="#localizacao">Localização</a>
                 </li>
             </ul>
         </div>
@@ -86,7 +86,7 @@
     </div>
 </section>
 
-<section class="sobre-nos">
+<section class="sobre-nos" id="sobre">
     <div class="container">
         <div class="col-12 col-sm-12 col-md-12">
             <h2 class="text-center mb-4">Sobre nós</h2>
@@ -107,7 +107,7 @@
     </div>
 </section>
 
-<section class="sobre-nos py-5">
+<section class="sobre-nos py-5" id="contato">
     <h2 class="text-center fw-bold mb-4">Contato</h2>
     <div class="container">
         <form method="post">
@@ -139,23 +139,23 @@
     <footer class="py-5">
         <div class="row">
             <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
+                <h5>Menu</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#sobre" class="nav-link p-0 text-body-secondary">Sobre</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mensagem</a></li>
+                    <li class="nav-item mb-2"><a href="#contato" class="nav-link p-0 text-body-secondary">Contato</a></li>
+                    <li class="nav-item mb-2"><a href="#localizacao" class="nav-link p-0 text-body-secondary">Localização</a></li>
                 </ul>
             </div>
 
-            <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                </ul>
-            </div>
+<!--            <div class="col-6 col-md-2 mb-3">-->
+<!--                <h5>Section</h5>-->
+<!--                <ul class="nav flex-column">-->
+<!--                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>-->
+<!--                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
 
             <div class="col-6 col-md-2 mb-3">
 
@@ -163,11 +163,12 @@
 
             <div class="col-md-5 offset-md-1 mb-3">
                 <form>
-                    <h5>Subscribe to our newsletter</h5>
+                    <h5>Newsletter</h5>
+                    <p>Receba em primeira mão as novidades!</p>
                     <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <label for="newsletter1" class="visually-hidden">Endereço de E-mail</label>
                         <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                        <button class="btn btn-primary" type="button">Subscribe</button>
+                        <button class="btn btn-primary" type="button">Cadastrar</button>
                     </div>
                 </form>
             </div>
@@ -175,7 +176,6 @@
 
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
             <p>© 2025 Missão Baptist Betel.</p>
-            
         </div>
     </footer>
 </div>
